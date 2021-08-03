@@ -1,0 +1,13 @@
+{
+    "name": "FooHello",
+    "alias": "foohello",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\FooHello\\Providers\\FooHelloServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

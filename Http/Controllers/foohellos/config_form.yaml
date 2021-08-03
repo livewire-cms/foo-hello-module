@@ -1,0 +1,16 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: Foohellos
+form: ~/Modules/FooHello/Models/foohello/fields.yaml
+modelClass: Modules\FooHello\Models\Foohello
+defaultRedirect: foohello/foohellos
+
+create:
+    redirect: foohello/foohellos/update/:id
+    redirectClose: foohello/foohellos
+
+update:
+    redirect: foohello/foohellos
+    redirectClose: foohello/foohellos
